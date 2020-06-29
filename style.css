@@ -1,0 +1,71 @@
+body {
+	background-color: #d8b9c3;
+	margin:0px;
+	
+font-size:20px;
+font-family: helvetica, sans-serif; 
+color: #363062;
+
+}
+h1{
+	font-size: 80px;
+	text-align: center;
+
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+a:hover {
+	color:blue;
+	font-weight: bold;
+}
+#logo {
+	width: 300px;
+	height: 300px;
+}
+p {
+	text-align: center; 
+}
+h2{
+	text-align: center;
+	
+}
+.container {
+
+width: 800px;
+margin: 10px auto; 
+text-align: center;
+	
+}
+@media (max-width: 750px){
+	.container{
+		width: 600px;
+	}
+}
+
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+.KIP:hover{
+	background-color: black; 
+}
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+.list-horizontal li{
+	display: inline; 
+	padding:10px;
+}
+.list-horizontal i{
+	font-size: 50px; 
+}
+
